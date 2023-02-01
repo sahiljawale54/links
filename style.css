@@ -12,17 +12,27 @@ body{
   font-family: 'Poppins', sans-serif;
 
 }
-
-.heading{
-  color: whitesmoke;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 7px;
+.navbar{
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.navbar span:nth-child(1){
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.navbar span:nth-child(2){
+  font-size: 20px;
+}
 .links{
   display: flex;
+  margin-top: 30px;
   flex-direction: column;
   width: 80%;
 }
@@ -52,3 +62,14 @@ body{
   padding-right: 10px
 }
 
+
+.footer{
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+}
